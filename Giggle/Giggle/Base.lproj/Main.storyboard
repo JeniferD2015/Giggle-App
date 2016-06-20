@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="RVh-4L-Eq5">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Giggle" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="minion.png" translatesAutoresizingMaskIntoConstraints="NO" id="vUp-lT-tCZ">
+                                <rect key="frame" x="67" y="255" width="240" height="128"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.65000000000000002" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="7fn-u5-jUB">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="0.69858743686868685" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="Ktm-Mc-hrU"/>
+                                    <constraint firstAttribute="height" constant="104" id="nyO-tp-S9T">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="167"/>
+                                    </constraint>
+                                </constraints>
+                                <color key="textColor" red="1" green="0.89405968532782931" blue="0.18699187225647029" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Ktm-Mc-hrU"/>
+                                        <exclude reference="nyO-tp-S9T"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="Ktm-Mc-hrU"/>
+                                        <include reference="nyO-tp-S9T"/>
+                                    </mask>
+                                </variation>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chuck Norris Jokes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uOu-Sn-gzq">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="0.62200126262626265" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="96U-ED-l0T">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="41"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" constant="231" id="hBl-0B-Twf">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="375"/>
+                                    </constraint>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="96U-ED-l0T"/>
+                                        <exclude reference="hBl-0B-Twf"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="96U-ED-l0T"/>
+                                        <include reference="hBl-0B-Twf"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rX1-Q9-UXH">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="gRc-bo-n9Z">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="436"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" constant="173" id="hdf-Dn-APw">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="375"/>
+                                    </constraint>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="18"/>
+                                <state key="normal" title="Click minion for next Joke!">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="gRc-bo-n9Z"/>
+                                        <exclude reference="hdf-Dn-APw"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="gRc-bo-n9Z"/>
+                                        <include reference="hdf-Dn-APw"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CCB-XT-0Vz"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="vUp-lT-tCZ" secondAttribute="bottom" id="3QR-vU-7VB"/>
+                            <constraint firstItem="vUp-lT-tCZ" firstAttribute="top" secondItem="uOu-Sn-gzq" secondAttribute="bottom" constant="-39" id="AwX-K4-68A">
+                                <variation key="heightClass=regular-widthClass=compact" constant="-41"/>
+                            </constraint>
+                            <constraint firstItem="rX1-Q9-UXH" firstAttribute="top" secondItem="7fn-u5-jUB" secondAttribute="bottom" constant="23" id="Iy4-MC-ljO">
+                                <variation key="heightClass=regular-widthClass=compact" constant="-40"/>
+                            </constraint>
+                            <constraint firstItem="vUp-lT-tCZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="KXm-DU-Gh3"/>
+                            <constraint firstItem="rX1-Q9-UXH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="N0W-LB-926">
+                                <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
+                            </constraint>
+                            <constraint firstAttribute="trailing" secondItem="vUp-lT-tCZ" secondAttribute="trailing" id="Ozc-6i-lDo"/>
+                            <constraint firstItem="vUp-lT-tCZ" firstAttribute="top" secondItem="7fn-u5-jUB" secondAttribute="bottom" constant="-134" id="XMF-vN-cBQ">
+                                <variation key="heightClass=regular-widthClass=compact" constant="-207"/>
+                            </constraint>
+                            <constraint firstItem="vUp-lT-tCZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="gH3-hE-73N"/>
+                            <constraint firstItem="7fn-u5-jUB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nTe-Cq-vqj"/>
+                            <constraint firstItem="uOu-Sn-gzq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sR1-wC-kwl"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="7fn-u5-jUB"/>
+                                <exclude reference="uOu-Sn-gzq"/>
+                                <exclude reference="rX1-Q9-UXH"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="Iy4-MC-ljO"/>
+                                <exclude reference="N0W-LB-926"/>
+                                <exclude reference="sR1-wC-kwl"/>
+                                <exclude reference="nTe-Cq-vqj"/>
+                                <exclude reference="AwX-K4-68A"/>
+                                <exclude reference="KXm-DU-Gh3"/>
+                                <exclude reference="Ozc-6i-lDo"/>
+                                <exclude reference="XMF-vN-cBQ"/>
+                                <exclude reference="gH3-hE-73N"/>
+                                <exclude reference="3QR-vU-7VB"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="7fn-u5-jUB"/>
+                                <include reference="uOu-Sn-gzq"/>
+                                <include reference="rX1-Q9-UXH"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="Iy4-MC-ljO"/>
+                                <include reference="N0W-LB-926"/>
+                                <include reference="sR1-wC-kwl"/>
+                                <include reference="nTe-Cq-vqj"/>
+                                <include reference="AwX-K4-68A"/>
+                                <include reference="KXm-DU-Gh3"/>
+                                <include reference="Ozc-6i-lDo"/>
+                                <include reference="XMF-vN-cBQ"/>
+                                <include reference="gH3-hE-73N"/>
+                                <include reference="3QR-vU-7VB"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="YdY-e9-lbS"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="jokeTextView" destination="7fn-u5-jUB" id="5ta-uY-8Ce"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1862.25" y="202.125"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="5fD-95-Sbd">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="RVh-4L-Eq5" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="TM5-bg-Ppo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="YvO-mK-1p8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GNF-Pq-1i7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="242" y="194"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="minion.png" width="1080" height="1920"/>
+    </resources>
+</document>
